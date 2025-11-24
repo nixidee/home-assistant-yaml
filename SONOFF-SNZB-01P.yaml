@@ -46,6 +46,9 @@ blueprint:
             - integration: mqtt
               manufacturer: eWeLink
               model: Wireless button (SNZB-01P)
+            - integration: mqtt
+              manufacturer: eWeLink
+              model: SNZB-01P
           multiple: false
     helper_last_controller_event:
       name: (Required) Helper - Last Controller Event
